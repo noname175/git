@@ -1,0 +1,117 @@
+# Создано https://www.toptal.com/developers/gitignore/api/intellij
+# Редактировать в https://www.toptal.com/developers/gitignore?templates=intellij
+
+### Интеллектуальный ###
+# Охватывает IDE JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm и Rider.
+# Ссылка: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Пользовательский материал
+.идея/**/workspace.xml
+.идея/**/tasks.xml
+.идея/**/usage.statistics.xml
+.идея/**/словари
+.идея/**/полка
+
+# Специфичный для пользователя AWS
+.идея/**/aws.xml
+
+# Сгенерированные файлы
+.идея/**/contentModel.xml
+
+# Конфиденциальные файлы или файлы с высоким оттоком
+.идея/**/Источники данных/
+.idea/**/Источники данных.идентификаторы
+.идея/**/dataSources.local.xml
+.идея/**/sqlDataSources.xml
+.идея/**/dynamic.xml
+.идея/**/uiDesigner.xml
+.идея/**/dbnavigator.xml
+
+# Градация
+.идея/**/gradle.xml
+.идея/**/библиотеки
+
+# Gradle и Maven с автоматическим импортом
+# При использовании Gradle или Maven с автоматическим импортом вы должны исключить файлы модуля,
+# так как они будут воссозданы заново и могут вызвать отток. Раскомментируйте, если используете
+# автоматический импорт.
+# .идея/артефакты
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .идея/*.iml
+# .идея/модули
+# *.iml
+# *.пис
+
+# СМейк
+cmake-сборка-*/
+
+ Плагин # Mongo Explorer
+.идея/**/mongoSettings.xml
+
+# Формат проекта на основе файлов
+*.ивс
+
+# Интеллектуальный
+вон/
+
+ плагин # mpeltonen/sbt-idea
+.идея_модулей/
+
+ Плагин # JIRA
+atlassian-ide-plugin.xml
+
+ Плагин # Курсивный Clojure
+.idea/replstate.xml
+
+ Плагин # SonarLint
+.идея/sonarlint/
+
+ Плагин # Crashlytics (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.свойства
+crashlytics-сборка.свойства
+ткань.свойства
+
+# Клиент Rest на основе редактора
+.идея/HttpRequests
+
+# Android studio 3.1+ сериализованный файл кэша
+.idea/кэширует/build_file_checksums.ser файл проверки.
+
+### Патч Intellij ###
+# Причина комментария: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.пис
+
+ Плагин # Sonarlint
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.идея/**/sonarlint/
+
+ Плагин # SonarQube
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.идея/**/sonarIssues.xml
+
+ Плагин # Markdown Navigator для навигации
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.идея/**/markdown-navigator.xml
+.идея/**/markdown-navigator-enh.xml
+.идея/**/markdown-навигатор/
+
+# Ошибка при создании файла кэша
+# Видеть https://youtrack.jetbrains.com/issue/JBR-2257
+.идея/$CACHE_FILE$
+
+ Плагин # CodeStream
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+# Azure Toolkit для плагина IntelliJ
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.идея/**/azureSettings.xml
+
+# Конец https://www.toptal.com/developers/gitignore/api/intellij
